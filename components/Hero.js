@@ -23,7 +23,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen overflow-hidden pt-28 sm:pt-40 ">
+    <div className="relative min-h-screen overflow-hidden pt-20 sm:pt-40 ">
       <motion.div
         animate={{ rotate: 0, x: 0 }}
         initial={{ rotate: -20, x: 500 }}
