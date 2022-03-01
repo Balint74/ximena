@@ -13,7 +13,7 @@ const NavbarCrystal = () => {
       <div className={`mx-auto flex max-w-7xl items-baseline justify-between`}>
         <Link passHref href="/">
           <a
-            className={` ml-10 text-2xl font-bold tracking-wider text-purple-800`}
+            className={` ml-10 text-3xl font-extrabold tracking-wider font-handwritten  text-purple-800`}
           >
              Ximena
           </a>
