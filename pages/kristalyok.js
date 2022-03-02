@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -7,6 +8,13 @@ import NavbarCrystal from "../components/NavbarCrystal";
 export default function kristalyok() {
   return (
     <div className=" bg-[url('/assets/cbg.jpg')] bg-cover bg-fixed bg-no-repeat">
+      <Head>
+        <title>Ximena - Ajándék kristályok</title>
+        <meta
+          name="description"
+          content="Kapható ajándék kristályok, dekorációk és ékszerek formájában."
+        />
+      </Head>
       <NavbarCrystal></NavbarCrystal>
 
       <div className="font-roboto mx-auto max-w-7xl pt-40 text-center text-4xl font-semibold  text-purple-900">
@@ -124,7 +132,6 @@ export default function kristalyok() {
               alt="Mandala"
               layout="fill"
               className="rounded-xl shadow-2xl"
-
             ></Image>
           </motion.div>
           <motion.div
