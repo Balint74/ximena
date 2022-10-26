@@ -10,10 +10,7 @@ export default function kristalyok() {
     <div className=" bg-[url('/assets/cbg.jpg')] bg-cover bg-fixed bg-no-repeat">
       <Head>
         <title>Ximena - Ajándék kristályok</title>
-        <meta
-          name="description"
-          content="Kapható ajándék kristályok, dekorációk és ékszerek formájában."
-        />
+        <meta name="description" content="Kapható ajándék kristályok, dekorációk és ékszerek formájában." />
       </Head>
       <NavbarCrystal></NavbarCrystal>
 
@@ -28,26 +25,16 @@ export default function kristalyok() {
           className="w-80 overflow-hidden rounded-md bg-white/90 shadow-xl"
         >
           <div className="relative h-56 w-80">
-            <Image
-              src={"/assets/bracelet.jpg"}
-              layout={"fill"}
-              alt=""
-              objectFit="cover"
-            ></Image>
+            <Image src={"/assets/bracelet.jpg"} width={324} height={224} alt="" objectFit="cover"></Image>
           </div>
           <div className="py-5 px-5">
-            <h2 className="font-roboto text-lg font-semibold text-gray-700">
-              Kristály ékszerek
-            </h2>
+            <h2 className="font-roboto text-lg font-semibold text-gray-700">Kristály ékszerek</h2>
             <p className="pt-3 text-justify">
-              Karkötőink amellett, hogy gyógyító erőt hordoznak, kiváló
-              kiegészítői mindennapjainknak, letisztult stílusukkal pedig
-              remekül illeszkednek bármilyen megjelenéshez.
+              Karkötőink amellett, hogy gyógyító erőt hordoznak, kiváló kiegészítői mindennapjainknak, letisztult stílusukkal pedig remekül
+              illeszkednek bármilyen megjelenéshez.
             </p>
             <Link href="/#kapcsolat" passHref>
-              <button className="mt-4 rounded-lg bg-purple-700 px-4 py-2 text-white transition hover:bg-purple-800 hover:shadow-lg">
-                Érdekel
-              </button>
+              <button className="mt-4 rounded-lg bg-purple-700 px-4 py-2 text-white transition hover:bg-purple-800 hover:shadow-lg">Érdekel</button>
             </Link>
           </div>
         </motion.div>
@@ -58,35 +45,23 @@ export default function kristalyok() {
           className="w-80 overflow-hidden rounded-md bg-white/90 shadow-xl"
         >
           <div className="relative h-56 w-80">
-            <Image
-              src={"/assets/decor.jpg"}
-              layout={"fill"}
-              alt=""
-              objectFit="cover"
-            ></Image>
+            <Image src={"/assets/decor.jpg"} width={324} height={224} alt="" objectFit="cover"></Image>
           </div>
           <div className="py-5 px-5">
-            <h2 className="font-roboto text-lg font-semibold text-gray-700">
-              Kristály dekorációk
-            </h2>
+            <h2 className="font-roboto text-lg font-semibold text-gray-700">Kristály dekorációk</h2>
             <p className="pt-3 text-justify">
-              Kapható: kristály gömbök, csúcsok, mandala képekre képekre
-              helyezett kristályok, amelyket a tértisztító hatással
-              rendelkeznek. Ezek mellett megfelelő kiegészítői lakásunknak.
+              Kapható: kristály gömbök, csúcsok, mandala képekre képekre helyezett kristályok, amelyket a tértisztító hatással rendelkeznek. Ezek
+              mellett megfelelő kiegészítői lakásunknak.
             </p>
             <Link href="/#kapcsolat" passHref>
-              <button className="mt-4 rounded-lg bg-purple-700 px-4 py-2 text-white transition hover:bg-purple-800 hover:shadow-lg">
-                Érdekel
-              </button>
+              <button className="mt-4 rounded-lg bg-purple-700 px-4 py-2 text-white transition hover:bg-purple-800 hover:shadow-lg">Érdekel</button>
             </Link>
           </div>
         </motion.div>
       </div>
       <div className="mx-auto  mt-40 max-w-7xl bg-white/60 ">
         <div className="mb-10 py-5">
-          <h1 className=" text-center text-3xl tracking-wide underline decoration-purple-800 ">
-            Kristály dekorációk
-          </h1>
+          <h1 className=" text-center text-3xl tracking-wide underline decoration-purple-800 ">Kristály dekorációk</h1>
         </div>
 
         <div className="grid gap-y-5 px-10 pb-14  sm:grid-cols-2 sm:gap-x-20 sm:gap-y-20 md:grid-cols-3">
@@ -97,13 +72,7 @@ export default function kristalyok() {
             }}
             className="relative z-10 mx-auto flex h-64 w-64 items-center justify-center shadow-2xl hover:z-40 lg:h-72 lg:w-72"
           >
-            <Image
-              src={"/assets/cr1.jpg"}
-              alt="Mandala"
-              layout="fill"
-              className="rounded-xl shadow-2xl"
-              objectFit="cover"
-            ></Image>
+            <Image src={"/assets/cr1.jpg"} alt="Mandala" width={300} height={300} className="rounded-xl shadow-2xl" objectFit="cover"></Image>
           </motion.div>
           <motion.div
             whileHover={{
@@ -112,13 +81,7 @@ export default function kristalyok() {
             }}
             className="relative z-10 mx-auto flex h-64 w-64 items-center justify-center shadow-2xl hover:z-40 lg:h-72 lg:w-72"
           >
-            <Image
-              src={"/assets/cr2.jpg"}
-              alt="Mandala"
-              layout="fill"
-              className="rounded-xl shadow-2xl"
-              objectFit="cover"
-            ></Image>
+            <Image src={"/assets/cr2.jpg"} alt="Mandala" width={300} height={300} className="rounded-xl shadow-2xl" objectFit="cover"></Image>
           </motion.div>
           <motion.div
             whileHover={{
@@ -127,12 +90,7 @@ export default function kristalyok() {
             }}
             className="relative z-10 mx-auto flex h-64 w-64 items-center justify-center shadow-2xl hover:z-40 lg:h-72 lg:w-72"
           >
-            <Image
-              src={"/assets/cr3.jpg"}
-              alt="Mandala"
-              layout="fill"
-              className="rounded-xl shadow-2xl"
-            ></Image>
+            <Image src={"/assets/cr3.jpg"} alt="Mandala" width={300} height={300} className="rounded-xl shadow-2xl"></Image>
           </motion.div>
           <motion.div
             whileHover={{
@@ -141,13 +99,7 @@ export default function kristalyok() {
             }}
             className="relative z-10 mx-auto flex h-64 w-64 items-center justify-center shadow-2xl hover:z-40 lg:h-72 lg:w-72"
           >
-            <Image
-              src={"/assets/cr4.jpg"}
-              alt="Mandala"
-              layout="fill"
-              className="rounded-xl shadow-2xl"
-              objectFit="cover"
-            ></Image>
+            <Image src={"/assets/cr4.jpg"} alt="Mandala" width={300} height={300} className="rounded-xl shadow-2xl" objectFit="cover"></Image>
           </motion.div>
           <motion.div
             whileHover={{
@@ -156,13 +108,7 @@ export default function kristalyok() {
             }}
             className="relative z-10 mx-auto flex h-64 w-64 items-center justify-center shadow-2xl hover:z-40 lg:h-72 lg:w-72"
           >
-            <Image
-              src={"/assets/cr5.jpg"}
-              alt="Mandala"
-              layout="fill"
-              className="rounded-xl shadow-2xl"
-              objectFit="cover"
-            ></Image>
+            <Image src={"/assets/cr5.jpg"} alt="Mandala" width={300} height={300} className="rounded-xl shadow-2xl" objectFit="cover"></Image>
           </motion.div>
           <motion.div
             whileHover={{
@@ -171,13 +117,7 @@ export default function kristalyok() {
             }}
             className="relative z-10 mx-auto flex h-64 w-64 items-center justify-center shadow-2xl hover:z-40 lg:h-72 lg:w-72"
           >
-            <Image
-              src={"/assets/cr6.jpg"}
-              alt="Mandala"
-              layout="fill"
-              className="rounded-xl shadow-2xl"
-              objectFit="cover"
-            ></Image>
+            <Image src={"/assets/cr6.jpg"} alt="Mandala" width={300} height={300} className="rounded-xl shadow-2xl" objectFit="cover"></Image>
           </motion.div>
         </div>
       </div>

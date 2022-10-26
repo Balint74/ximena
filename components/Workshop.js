@@ -26,7 +26,7 @@ const Workshop = () => {
               <div className=" flex flex-col items-center sm:flex-row sm:gap-4">
                 <Image
                   src={"/assets/canvas.svg"}
-                  alt=""
+                  alt="Canvas icon"
                   width={30}
                   height={30}
                 ></Image>
@@ -133,9 +133,10 @@ const Workshop = () => {
         <div className="relative sm:w-3/5 ">
           <Image
             src={"/assets/work.jpg"}
-            alt=""
+            alt="Foglalkozás"
             title=""
-            layout="fill"
+            width={465}
+            height={630}
             objectFit="cover"
             className="rounded-xl"
           ></Image>

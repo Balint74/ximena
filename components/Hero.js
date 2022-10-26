@@ -68,7 +68,8 @@ const Hero = () => {
             <Image
               alt="crystal"
               src={"/assets/c.jpg"}
-              layout={"fill"}
+              height={416}
+              width={760}
               objectFit="cover"
             ></Image>
           </div>

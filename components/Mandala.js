@@ -11,7 +11,8 @@ const Mandala = () => {
               src={"/assets/4.jpg"}
               alt=""
               title=""
-              layout="fill"
+              width={300}
+              height={300}
               objectFit="cover"
             ></Image>
           </div>
