@@ -32,7 +32,7 @@ const Hero = () => {
       ></motion.div>
       <div className="relative z-10">
         <h1 className="font-roboto text-center text-4xl font-bold leading-tight text-gray-800 sm:text-6xl sm:font-semibold">
-          Egyedi személyreszabott <br className="" />
+          Egyedi személyre szabott <br className="" />
           mandala készítés
         </h1>
         <p className="font-roboto mx-auto mt-10 p-3 text-center text-xl text-gray-700 sm:mt-14 sm:p-0 sm:font-bold lg:w-[700px]">

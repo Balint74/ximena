@@ -15,7 +15,7 @@ export default function Home() {
         <title>Ximena - Egyedi mandala készítés</title>
         <meta
           name="description"
-          content="Egyedi személyreszabott
+          content="Egyedi személyre szabott
           mandala készítés és foglalkozás."
         />
       </Head>
