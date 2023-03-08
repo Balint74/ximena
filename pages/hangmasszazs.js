@@ -20,17 +20,17 @@ const Hangmasszazs = () => {
           </Link>
           <div className="flex gap-5 text-lg font-semibold md:gap-10 lg:mr-20 lg:gap-32">
             <Link href="/" passHref>
-              <button className=" rounded-lg bg-white/40 py-1 px-4 font-semibold text-gray-900 shadow-xl transition-all hover:-translate-y-1 hover:text-amber-600 hover:shadow-2xl">
+              <button className=" rounded-lg bg-white/40 py-1 px-4 font-semibold text-gray-900 shadow-xl backdrop-blur-md transition-all hover:-translate-y-1 hover:text-amber-600 hover:shadow-2xl">
                 Főoldal
               </button>
             </Link>
             <Link href="/kristalyok" passHref>
-              <button className=" rounded-lg bg-white/40 py-1 px-4 font-semibold text-gray-900 shadow-xl transition-all hover:-translate-y-1 hover:text-amber-600 hover:shadow-2xl">
+              <button className=" rounded-lg bg-white/40 py-1 px-4 font-semibold text-gray-900 shadow-xl backdrop-blur-md transition-all hover:-translate-y-1 hover:text-amber-600 hover:shadow-2xl">
                 Kristályok
               </button>
             </Link>
             <Link href="/#kapcsolat" passHref>
-              <button className=" rounded-lg bg-white/50 py-1 px-4 font-semibold text-gray-900 shadow-xl transition-all hover:-translate-y-1 hover:text-amber-700 hover:shadow-2xl">
+              <button className=" rounded-lg bg-white/50 py-1 px-4 font-semibold text-gray-900 shadow-xl backdrop-blur-md transition-all hover:-translate-y-1 hover:text-amber-700 hover:shadow-2xl">
                 Kapcsolat
               </button>
             </Link>
