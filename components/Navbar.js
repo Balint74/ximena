@@ -27,7 +27,7 @@ const Navbar = () => {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.9, type: "spring", bounce: 0.5 }}
-        className={`fixed right-0 left-0 top-0 z-50 mt-4 hidden p-4 sm:block  ${
+        className={`fixed right-0 left-0 top-0 z-50 mt-4 hidden p-4 md:block  ${
           scrollY > 50 ? "mt-0 bg-white shadow-md" : "shadow-none"
         }`}
       >
@@ -67,12 +67,17 @@ const Navbar = () => {
                 Kristályok
               </a>
             </Link>
+            <Link href="/hangmasszazs" passHref>
+              <a className="cursor-pointer rounded-lg bg-amber-300 px-3 py-2 text-white transition hover:shadow-xl">
+                Hangmasszázs
+              </a>
+            </Link>
           </div>
         </div>
       </motion.div>
 
       <div
-        className={`fixed right-0 left-0 top-0 z-50 block p-4 sm:hidden ${
+        className={`fixed right-0 left-0 top-0 z-50 block p-4 md:hidden ${
           scrollY > 50 ? "mt-0 bg-white shadow-md" : "shadow-none"
         }`}
       >
@@ -158,6 +163,16 @@ const Navbar = () => {
               }}
             >
               Kristályok
+            </a>
+          </Link>
+          <Link href="/hangmasszazs" passHref>
+            <a
+              className="cursor-pointer rounded-lg border-2 border-amber-400 px-3 py-2  transition hover:shadow-xl"
+              onClick={() => {
+                setOpen(!open);
+              }}
+            >
+            Hangmasszázs  
             </a>
           </Link>
         </div>

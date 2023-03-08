@@ -1,19 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React from "react";
 
 const Hangmasszazs = () => {
-  const scrollToTop = () => {
-    window.scroll({
-      top: 0,
-      left: 0,
-      behavior: "auto",
-    });
-  };
-
   return (
-    <div>
+    <div className="relative">
       <Head>
         <title>Ximena - Hangmasszázs</title>
         <meta
@@ -21,34 +13,33 @@ const Hangmasszazs = () => {
           content="Lazuljon el Kovács Ximena, Peter Hess féle hangmasször foglalkozásán, melyen test ismét harmóniába kerülhet, egészségessé válhat."
         />
       </Head>
-
-      {/* HERO */}
-      <div className="relative h-[90vh] select-none">
-        <Image src={"/assets/hangtal-1.jpg"} alt="Hangtál" layout="fill" objectFit="cover" className="z-10 opacity-90"></Image>
-        <div className="sticky top-0 z-30">
-          <div className=" flex items-center justify-center p-5 sm:justify-between">
-            <Link href="/" passHref classname="">
-              <div className="ml-5 hidden cursor-pointer text-4xl font-bold tracking-widest text-white sm:block">Ximena</div>
+      <div className="fixed top-0 left-0 right-0 z-30">
+        <div className=" flex items-center justify-center p-5 sm:justify-between">
+          <Link href="/" passHref classname="">
+            <div className="ml-5 hidden cursor-pointer text-4xl font-bold tracking-widest text-white sm:block">Ximena</div>
+          </Link>
+          <div className="flex gap-5 text-lg font-semibold md:gap-10 lg:mr-20 lg:gap-32">
+            <Link href="/" passHref>
+              <button className=" rounded-lg bg-white/40 py-1 px-4 font-semibold text-gray-900 shadow-xl transition-all hover:-translate-y-1 hover:text-amber-600 hover:shadow-2xl">
+                Főoldal
+              </button>
             </Link>
-            <div className="flex gap-5 text-lg font-semibold md:gap-10 lg:mr-20 lg:gap-32">
-              <Link href="/" passHref>
-                <button className=" rounded-lg bg-white/40 py-1 px-4 font-semibold text-gray-900 shadow-xl transition-all hover:-translate-y-1 hover:text-amber-600 hover:shadow-2xl">
-                  Főoldal
-                </button>
-              </Link>
-              <Link href="/kristalyok" passHref>
-                <button className=" rounded-lg bg-white/40 py-1 px-4 font-semibold text-gray-900 shadow-xl transition-all hover:-translate-y-1 hover:text-amber-600 hover:shadow-2xl">
-                  Kristályok
-                </button>
-              </Link>
-              <Link href="/#kapcsolat" passHref>
-                <button className=" rounded-lg bg-white/50 py-1 px-4 font-semibold text-gray-900 shadow-xl transition-all hover:-translate-y-1 hover:text-amber-700 hover:shadow-2xl">
-                  Kapcsolat
-                </button>
-              </Link>
-            </div>
+            <Link href="/kristalyok" passHref>
+              <button className=" rounded-lg bg-white/40 py-1 px-4 font-semibold text-gray-900 shadow-xl transition-all hover:-translate-y-1 hover:text-amber-600 hover:shadow-2xl">
+                Kristályok
+              </button>
+            </Link>
+            <Link href="/#kapcsolat" passHref>
+              <button className=" rounded-lg bg-white/50 py-1 px-4 font-semibold text-gray-900 shadow-xl transition-all hover:-translate-y-1 hover:text-amber-700 hover:shadow-2xl">
+                Kapcsolat
+              </button>
+            </Link>
           </div>
         </div>
+      </div>
+      {/* HERO */}
+      <div className="relative h-[90vh] pt-20">
+        <Image src={"/assets/hangtal-1.jpg"} priority={true} alt="Hangtál" layout="fill" objectFit="cover" className="z-10 opacity-90"></Image>.
         <div className="relative z-20 sm:m-10 sm:ml-auto xl:w-2/5 ">
           <h1 className="decoration-3 text-center text-4xl font-bold tracking-wider text-white underline decoration-amber-500 md:text-6xl">
             HANGMASSZÁZS
@@ -237,7 +228,11 @@ const Hangmasszazs = () => {
             megnyilvánulások.
           </li>
           <div className="mt-5">
-            <a href="/assets/Információs adatlap.pdf" target={"_blank"} className="border-2 border-amber-400 px-3 py-1 shadow-md rounded hover:bg-gray-50">
+            <a
+              href="/assets/Információs adatlap.pdf"
+              target={"_blank"}
+              className="rounded border-2 border-amber-400 px-3 py-1 shadow-md hover:bg-gray-50"
+            >
               További információk
             </a>
           </div>
