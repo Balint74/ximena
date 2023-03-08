@@ -36,8 +36,7 @@ const Hero = () => {
           mandala készítés
         </h1>
         <p className="font-roboto mx-auto mt-10 p-3 text-center text-xl text-gray-700 sm:mt-14 sm:p-0 sm:font-bold lg:w-[700px]">
-          A mandala a kozmosz, illetve különféle istenek hindu vagy buddhista
-          vallási ábrázolása. Elkészítési folyamata maga is egyfajta meditatív
+          A mandala a kozmosz, illetve különféle istenek hindu vagy buddhista vallási ábrázolása. Elkészítési folyamata maga is egyfajta meditatív
           szertartás.
         </p>
 
@@ -65,21 +64,12 @@ const Hero = () => {
         </div>
         <div className="mx-auto mt-16 mb-5 flex max-w-4xl flex-col justify-center sm:mt-28 sm:mb-20 sm:flex-row">
           <div className="relative mx-auto h-40 w-5/6 overflow-hidden rounded-xl sm:mx-0 sm:h-52 sm:w-96">
-            <Image
-              alt="crystal"
-              src={"/assets/c.jpg"}
-              height={416}
-              width={760}
-              objectFit="cover"
-            ></Image>
+            <Image alt="crystal" src={"/assets/c.jpg"} height={416} width={760} objectFit="cover" priority={true}></Image>
           </div>
           <div className="mx-10 my-5 sm:w-72 ">
-            <div className="font-roboto mb-5 text-center text-xl tracking-wider underline decoration-pink-800 sm:text-left">
-              Ajándék kristályok
-            </div>
+            <div className="font-roboto mb-5 text-center text-xl tracking-wider underline decoration-pink-800 sm:text-left">Ajándék kristályok</div>
             <p className="text-center sm:text-left">
-              Tökéletes ajándék lehet szeretteink, barátaink számára. Kapható
-              ékszerek, kiegészítők és díszek formájában.
+              Tökéletes ajándék lehet szeretteink, barátaink számára. Kapható ékszerek, kiegészítők és díszek formájában.
             </p>
             <div className=" flex justify-center sm:mb-0 sm:justify-start">
               <Link href="/kristalyok" passHref>

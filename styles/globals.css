@@ -10,3 +10,13 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* targeting only firefox browser */
+@-moz-document url-prefix() {
+html {
+  scroll-behavior: auto;
+}
+}

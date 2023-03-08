@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from "react";
 import NavbarCrystal from "../components/NavbarCrystal";
 
-export default function kristalyok() {
+export default function Kristalyok() {
   return (
     <div className=" bg-[url('/assets/cbg.jpg')] bg-cover bg-fixed bg-no-repeat">
       <Head>
