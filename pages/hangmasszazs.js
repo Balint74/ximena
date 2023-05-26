@@ -44,7 +44,7 @@ const Hangmasszazs = () => {
           <h1 className="decoration-3 text-center text-4xl font-bold tracking-wider text-white underline decoration-amber-500 md:text-6xl">
             HANGMASSZÁZS
           </h1>
-          <p className="mt-5 rounded-md bg-white/30 p-10 text-justify text-2xl font-semibold text-white sm:bg-transparent md:text-3xl">
+          <p className="mt-5 rounded-md bg-white/30 p-10 text-center md:text-justify text-2xl font-semibold text-white sm:bg-transparent md:text-3xl">
             Lazuljon el Kovács Ximena, Peter Hess féle hangmasször foglalkozásán, melyen test ismét harmóniába kerülhet, egészségessé válhat.
           </p>
           <div className="text-center">
