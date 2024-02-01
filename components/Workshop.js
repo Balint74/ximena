@@ -63,7 +63,7 @@ const Workshop = () => {
                     d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
                   />
                 </svg>
-                <p className="mt-4 sm:mt-0">A foglalkozás ára: 9900 Ft</p>
+                <p className="mt-4 sm:mt-0">A foglalkozás ára: 13.000 Ft</p>
                 <span>-</span>
                 <p className="text-center sm:text-left"> Helyedet 3000 Ft előleg utalásával biztosíthatod.</p>
               </div>
