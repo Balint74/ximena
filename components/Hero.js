@@ -23,7 +23,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen overflow-hidden pt-20 sm:pt-40 ">
+    <section className="relative min-h-screen overflow-hidden pt-20 sm:pt-40 ">
       <motion.div
         animate={{ rotate: 0, x: 0 }}
         initial={{ rotate: -20, x: 500 }}
@@ -35,9 +35,9 @@ const Hero = () => {
           Egyedi személyre szabott <br className="" />
           mandala készítés
         </h1>
-        <p className="font-roboto mx-auto mt-10 p-3 text-center text-xl text-gray-700 sm:mt-14 sm:p-0 sm:font-bold lg:w-[700px]">
-          A mandala a kozmosz, illetve különféle istenek hindu vagy buddhista vallási ábrázolása. Elkészítési folyamata maga is egyfajta meditatív
-          szertartás.
+        <p className="font-roboto mx-auto mt-10 p-3 text-center text-xl text-gray-700 sm:mt-14 sm:p-0  lg:w-[600px]">
+          Fedezd fel a mandalafestés művészetét! Képesített tanfolyamainkon kezdők is könnyedén alkothatnak vászonra, eszközeink és különleges
+          kellékeink segítségével. Csatlakozz inspiráló workshopjainkhoz!
         </p>
 
         <div className="mt-5 flex justify-center space-x-10 sm:mt-16">
@@ -67,7 +67,7 @@ const Hero = () => {
             <Image alt="crystal" src={"/assets/c.jpg"} height={416} width={760} objectFit="cover" priority={true}></Image>
           </div>
           <div className="mx-10 my-5 sm:w-72 ">
-            <div className="font-roboto mb-5 text-center text-xl tracking-wider underline decoration-pink-800 sm:text-left">Ajándék kristályok</div>
+            <h3 className="font-roboto mb-5 text-center text-xl tracking-wider underline decoration-pink-800 sm:text-left">Ajándék kristályok</h3>
             <p className="text-center sm:text-left">
               Tökéletes ajándék lehet szeretteink, barátaink számára. Kapható ékszerek, kiegészítők és díszek formájában.
             </p>
@@ -81,7 +81,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

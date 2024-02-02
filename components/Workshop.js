@@ -4,8 +4,8 @@ import React from "react";
 
 const Workshop = () => {
   return (
-    <div id="foglalkozas" className="scroll-mt-20 bg-gray-100 py-10 px-4 sm:px-10">
-      <div className="mx-auto flex justify-center items-center gap-5 sm:gap-0 max-w-7xl flex-col space-x-10 sm:flex-row">
+    <article id="foglalkozas" className="scroll-mt-20 bg-gray-100 py-10 px-4 sm:px-10">
+      <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-5 space-x-10 sm:flex-row sm:gap-0">
         <div className="w-full">
           <h1 className="text-3xl  underline decoration-violet-500 ">Foglalkozás</h1>
           <p className="my-5 text-justify">
@@ -19,10 +19,9 @@ const Workshop = () => {
             <div className="flex  p-3 py-5">
               <div className=" flex flex-col items-center sm:flex-row sm:gap-4">
                 <Image src={"/assets/canvas.svg"} alt="Canvas icon" width={30} height={30}></Image>
-                <div className="mt-4 text-center sm:mt-0 sm:text-left">
-                  {" "}
+                <p className="mt-4 text-center sm:mt-0 sm:text-left">
                   A mandalát 30x30-as vászonra készítjük.<span>-</span> Minden eszközt biztosítunk.
-                </div>
+                </p>
               </div>
             </div>
             <div className="flex flex-col items-center p-3 py-5  sm:flex-row sm:gap-4">
@@ -35,9 +34,9 @@ const Workshop = () => {
                 />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              <div className="mt-4 text-center sm:mt-0 sm:text-left">
+              <p className="mt-4 text-center sm:mt-0 sm:text-left">
                 Helyszín: Ximena - Mandala Egészségközpont: 2485 Gárdony-Dinnyés, Gárdonyi utca 47.
-              </div>
+              </p>
             </div>
             <div className=" flex flex-col items-center justify-between gap-4 p-3 py-5 sm:flex-row">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -49,7 +48,6 @@ const Workshop = () => {
                 />
               </svg>
               <p className="text-center sm:text-left">
-                {" "}
                 Jelentkezni: a 06-70-3395698-as telefon számon vagy a nagyximena75@gmail.hu email címen tudod megtenni.
               </p>
             </div>
@@ -92,10 +90,10 @@ const Workshop = () => {
         </div>
       </div>
       <div className="mx-auto mt-10 flex max-w-2xl flex-col items-center justify-center">
-        <div className="text-xl font-semibold text-gray-700 ">
+        <h4 className="text-xl font-semibold text-gray-700 ">
           További <span className="underline decoration-violet-500 decoration-2">hangtálas foglalkozások</span> elérhetőek az alábbi linken!
-        </div>
-        <Link href="/hangmasszazs" passHref >
+        </h4>
+        <Link href="/hangmasszazs" passHref>
           <a className=" mt-5 flex items-center gap-3 rounded-md bg-violet-400 px-4 py-2 text-lg font-semibold tracking-wide text-white transition-all hover:bg-violet-500 hover:shadow-xl">
             <span>
               <Image src={"/assets/singing-bowl.png"} alt="Hangtál" width={35} height={35}></Image>
@@ -104,7 +102,7 @@ const Workshop = () => {
           </a>
         </Link>
       </div>
-    </div>
+    </article>
   );
 };
 

@@ -4,7 +4,7 @@ import React from "react";
 
 const Showcase = () => {
   return (
-    <div id="munkaim" className="mx-auto my-10 sm:my-20 max-w-7xl scroll-mt-20">
+    <section id="munkaim" className="mx-auto my-10 sm:my-20 max-w-7xl scroll-mt-20">
       <h1 className="mb-5 sm:mb-20 text-center text-3xl tracking-wide underline decoration-pink-600">
         Munkáim
       </h1>
@@ -176,7 +176,7 @@ const Showcase = () => {
           ></Image>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 

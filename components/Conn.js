@@ -2,7 +2,7 @@ import React from "react";
 
 const Conn = () => {
   return (
-    <div id="kapcsolat" className="mx-auto my-10 max-w-7xl px-2 sm:px-10">
+    <section id="kapcsolat" className="mx-auto my-10 max-w-7xl px-2 sm:px-10">
       <div className="rounded-xl bg-pink-700/90 p-10  text-white">
         <h1 className="text-center font-mono text-5xl font-bold tracking-wider">Ximena Mandala</h1>
         <h2 className="upper mt-3 text-center text-2xl text-pink-50">Keressen bizalommal!</h2>
@@ -24,7 +24,7 @@ const Conn = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

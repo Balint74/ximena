@@ -3,7 +3,7 @@ import React from "react";
 
 const Mandala = () => {
   return (
-    <div className="bg-gray-100 p-3 sm:p-10">
+    <section className="bg-gray-100 p-3 sm:p-10">
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-col md:flex-row rounded-xl  bg-white p-5 sm:p-10 shadow-xl">
           <div className="relative h-72 md:w-1/3 overflow-hidden rounded-xl mx-auto">
@@ -17,9 +17,9 @@ const Mandala = () => {
             ></Image>
           </div>
           <div className="w-full md:px-20 py-5 text-justify">
-            <h1 className="mb-10 text-center text-3xl tracking-wide underline decoration-pink-600">
+            <h2 className="mb-10 text-center text-3xl tracking-wide underline decoration-pink-600">
               Mandala
-            </h1>
+            </h2>
             <p className="">
               A mandala szó a klasszikus indiai nyelvből a szanszkrit-ből
               származik, jelentése: kör, ív, körszelet vagy korong. Más vélemény
@@ -94,7 +94,7 @@ const Mandala = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

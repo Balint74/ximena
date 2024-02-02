@@ -12,21 +12,33 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Ximena - Egyedi mandala készítés</title>
+        <title>Mandalafestés tanfolyam - Ximena</title>
         <meta
           name="description"
-          content="Egyedi személyre szabott
-          mandala készítés és foglalkozás."
+          content="Fedezd fel a mandalafestés szépségét! Kezdőknek szóló tanfolyamainkon, eszközeink és kellékeink segítségével alkothatsz vászonra vagy kőre. Csatlakozz workshopjainkhoz!"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Mandalafestés tanfolyam - Ximena" />
+        <meta property="og:url" content="https://ximena.hu" />
+        <meta property="og:image" content="https://ximena.hu/og.jpg" />
+        <meta
+          property="og:description"
+          content="Fedezd fel a mandalafestés szépségét! Kezdőknek szóló tanfolyamainkon, eszközeink és kellékeink segítségével alkothatsz vászonra vagy kőre. Csatlakozz workshopjainkhoz!"
         />
       </Head>
       <Navbar></Navbar>
-      <Hero></Hero>
-      <Mandala></Mandala>
-      <About></About>
-      <Workshop></Workshop>
-      <Showcase></Showcase>
-      {/* <Crystals></Crystals> */}
-      <Conn></Conn>
+      <main>
+        <Hero></Hero>
+        <Mandala></Mandala>
+        <About></About>
+        <Workshop></Workshop>
+        <Showcase></Showcase>
+        {/* <Crystals></Crystals> */}
+        <Conn></Conn>
+      </main>
     </div>
   );
 }

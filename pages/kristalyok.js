@@ -7,10 +7,13 @@ import NavbarCrystal from "../components/NavbarCrystal";
 
 export default function Kristalyok() {
   return (
-    <div className=" bg-[url('/assets/cbg.jpg')] bg-cover bg-fixed bg-no-repeat">
+    <main className=" bg-[url('/assets/cbg.jpg')] bg-cover bg-fixed bg-no-repeat">
       <Head>
-        <title>Ximena - Ajándék kristályok</title>
+        <title>Ajándék kristály ékszerek és dekorációk </title>
         <meta name="description" content="Kapható ajándék kristályok, dekorációk és ékszerek formájában." />
+        <meta name="robots" content="index, follow" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <NavbarCrystal></NavbarCrystal>
 
@@ -121,6 +124,6 @@ export default function Kristalyok() {
           </motion.div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

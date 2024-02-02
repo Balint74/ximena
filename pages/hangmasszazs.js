@@ -5,15 +5,18 @@ import React from "react";
 
 const Hangmasszazs = () => {
   return (
-    <div className="relative">
+    <main className="relative">
       <Head>
-        <title>Ximena - Hangmasszázs</title>
+        <title>Peter Hess féle Hangmasszázs, hangfürdő - Ximena</title>
         <meta
           name="description"
-          content="Lazuljon el Kovács Ximena, Peter Hess féle hangmasször foglalkozásán, melyen test ismét harmóniába kerülhet, egészségessé válhat."
+          content="Élvezd a harmóniát Peter Hess féle Hangmasszázzsal! Mély meditáció, gyerekeknek is ideális. Tapasztald meg a hangfürdő gyógyító hatását!"
         />
+        <meta name="robots" content="index, follow" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <div className="fixed top-0 left-0 right-0 z-30">
+      <nav className="fixed top-0 left-0 right-0 z-30">
         <div className=" flex items-center justify-center p-5 sm:justify-between">
           <Link href="/" passHref classname="">
             <div className="ml-5 hidden cursor-pointer text-4xl font-bold tracking-widest text-white sm:block">Ximena</div>
@@ -36,15 +39,15 @@ const Hangmasszazs = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </nav>
       {/* HERO */}
-      <div className="relative h-[90vh] pt-20">
+      <section className="relative h-[90vh] pt-20">
         <Image src={"/assets/hangtal-1.jpg"} priority={true} alt="Hangtál" layout="fill" objectFit="cover" className="z-10 opacity-90"></Image>.
         <div className="relative z-20 sm:m-10 sm:ml-auto xl:w-2/5 ">
           <h1 className="decoration-3 text-center text-4xl font-bold tracking-wider text-white underline decoration-amber-500 md:text-6xl">
             HANGMASSZÁZS
           </h1>
-          <p className="mt-5 rounded-md bg-white/30 p-10 text-center md:text-justify text-2xl font-semibold text-white sm:bg-transparent md:text-3xl">
+          <p className="mt-5 rounded-md bg-white/30 p-10 text-center text-2xl font-semibold text-white sm:bg-transparent md:text-justify md:text-3xl">
             Lazuljon el Kovács Ximena, Peter Hess féle hangmasször foglalkozásán, melyen test ismét harmóniába kerülhet, egészségessé válhat.
           </p>
           <div className="text-center">
@@ -58,10 +61,10 @@ const Hangmasszazs = () => {
             <Image src={"/assets/logo.png"} alt="Peter Hess" width={400} height={300}></Image>
           </div>
         </div>
-      </div>
+      </section>
       {/* HERO */}
       {/* Features */}
-      <div className="bg-[#fff4de] pt-20 pb-56">
+      <section className="bg-[#fff4de] pt-20 pb-56">
         <h1 className=" mb-28 text-center text-3xl font-bold tracking-wider text-amber-500">A HANGMASSZÁZS LEGJELLEMZŐBB HATÁSAI</h1>
         <div className="">
           <div className="mx-5 flex flex-wrap items-stretch justify-around gap-5">
@@ -107,10 +110,10 @@ const Hangmasszazs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       {/* Features */}
       {/* Kid */}
-      <div className="bg-[#e8debe] py-10 pb-20">
+      <section className="bg-[#e8debe] py-10 pb-20">
         <div className="mx-auto -mt-36 max-w-6xl rounded-lg bg-white py-20 px-5 md:px-16">
           <div className="flex flex-col-reverse gap-10 md:flex-row ">
             <div className="mx-auto text-lg md:w-4/6">
@@ -196,9 +199,9 @@ const Hangmasszazs = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       {/* Kid */}
-      <div className="my-32">
+      <section className="my-32">
         <h1 className="text-center text-3xl font-semibold text-gray-700 underline decoration-amber-400 decoration-2">Oklevelek</h1>
         <div className="mt-10 flex flex-wrap justify-center gap-20">
           <div className="shadow-lg transition-transform hover:scale-125">
@@ -214,7 +217,7 @@ const Hangmasszazs = () => {
             <Image src={"/assets/Beolvasás 3.jpg"} alt="Oklevél" width={210} height={297}></Image>
           </div>
         </div>
-      </div>
+      </section>
       <div className="mb-36">
         <h1 className="text-center text-3xl font-semibold text-amber-500">Részvételi feltételek</h1>
         <ul className="mx-10 mt-7 max-w-3xl list-disc text-lg md:mx-auto">
@@ -238,7 +241,7 @@ const Hangmasszazs = () => {
           </div>
         </ul>
       </div>
-    </div>
+    </main>
   );
 };
 

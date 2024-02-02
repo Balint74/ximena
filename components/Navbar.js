@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
   return (
     <>
-      <motion.div
+      <motion.nav
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.9, type: "spring", bounce: 0.5 }}
@@ -74,7 +74,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-      </motion.div>
+      </motion.nav>
 
       <div
         className={`fixed right-0 left-0 top-0 z-50 block p-4 md:hidden ${
