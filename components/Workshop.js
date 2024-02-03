@@ -18,7 +18,7 @@ const Workshop = () => {
           <div className="divide-y-2  rounded-md border-2 border-violet-300 bg-white px-3">
             <div className="flex  p-3 py-5">
               <div className=" flex flex-col items-center sm:flex-row sm:gap-4">
-                <Image src={"/assets/canvas.svg"} alt="Canvas icon" width={30} height={30}></Image>
+                <Image src={"/assets/canvas.svg"} alt="Mandala készítés vászonra" width={30} height={30}></Image>
                 <p className="mt-4 text-center sm:mt-0 sm:text-left">
                   A mandalát 30x30-as vászonra készítjük.<span>-</span> Minden eszközt biztosítunk.
                 </p>
@@ -86,7 +86,7 @@ const Workshop = () => {
         </div>
 
         <div className="relative w-3/5 ">
-          <Image src={"/assets/work.jpg"} alt="Foglalkozás" title="" width={465} height={630} objectFit="cover" className="rounded-xl"></Image>
+          <Image src={"/assets/work.jpg"} alt="Mandala tanfolyam" title="" width={465} height={630} objectFit="cover" className="rounded-xl"></Image>
         </div>
       </div>
       <div className="mx-auto mt-10 flex max-w-2xl flex-col items-center justify-center">
@@ -96,7 +96,7 @@ const Workshop = () => {
         <Link href="/hangmasszazs" passHref>
           <a className=" mt-5 flex items-center gap-3 rounded-md bg-violet-400 px-4 py-2 text-lg font-semibold tracking-wide text-white transition-all hover:bg-violet-500 hover:shadow-xl">
             <span>
-              <Image src={"/assets/singing-bowl.png"} alt="Hangtál" width={35} height={35}></Image>
+              <Image src={"/assets/singing-bowl.png"} alt="Hangmasszázs" width={35} height={35}></Image>
             </span>
             Hangmasszázs
           </a>

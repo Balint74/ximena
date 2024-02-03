@@ -64,7 +64,7 @@ const Hero = () => {
         </div>
         <div className="mx-auto mt-16 mb-5 flex max-w-4xl flex-col justify-center sm:mt-28 sm:mb-20 sm:flex-row">
           <div className="relative mx-auto h-40 w-5/6 overflow-hidden rounded-xl sm:mx-0 sm:h-52 sm:w-96">
-            <Image alt="crystal" src={"/assets/c.jpg"} height={416} width={760} objectFit="cover" priority={true}></Image>
+            <Image alt="Ajándék kristályok" src={"/assets/c.jpg"} height={416} width={760} objectFit="cover" priority={true}></Image>
           </div>
           <div className="mx-10 my-5 sm:w-72 ">
             <h3 className="font-roboto mb-5 text-center text-xl tracking-wider underline decoration-pink-800 sm:text-left">Ajándék kristályok</h3>
