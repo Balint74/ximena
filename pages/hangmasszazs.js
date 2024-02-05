@@ -45,7 +45,7 @@ const Hangmasszazs = () => {
         <Image src={"/assets/hangtal-1.jpg"} priority={true} alt="Hangtál" layout="fill" objectFit="cover" className="z-10 opacity-90"></Image>.
         <div className="relative z-20 sm:m-10 sm:ml-auto xl:w-2/5 ">
           <h1 className="decoration-3 text-center text-4xl font-bold tracking-wider text-white underline decoration-amber-500 md:text-6xl">
-            HANGMASSZÁZS
+            HANGTERÁPIA
           </h1>
           <p className="mt-5 rounded-md bg-white/30 p-10 text-center text-2xl font-semibold text-white sm:bg-transparent md:text-justify md:text-3xl">
             Lazuljon el Kovács Ximena, Peter Hess féle hangmasszőr foglalkozásán, melyen test ismét harmóniába kerülhet, egészségessé válhat.
@@ -65,7 +65,7 @@ const Hangmasszazs = () => {
       {/* HERO */}
       {/* Features */}
       <section className="bg-[#fff4de] pt-20 pb-56">
-        <h1 className=" mb-28 text-center text-3xl font-bold tracking-wider text-amber-500">A HANGMASSZÁZS LEGJELLEMZŐBB HATÁSAI</h1>
+        <h2 className=" mb-28 text-center text-3xl font-bold tracking-wider text-amber-500">A HANGMASSZÁZS LEGJELLEMZŐBB HATÁSAI</h2>
         <div className="">
           <div className="mx-5 flex flex-wrap items-stretch justify-around gap-5">
             <div className="relative w-[420px]  self-start rounded-md   bg-white p-5 shadow-lg">
@@ -117,7 +117,7 @@ const Hangmasszazs = () => {
         <div className="mx-auto -mt-36 max-w-6xl rounded-lg bg-white py-20 px-5 md:px-16">
           <div className="flex flex-col-reverse gap-10 md:flex-row ">
             <div className="mx-auto text-lg md:w-4/6">
-              <h1 className="mb-7 text-center text-3xl font-semibold text-gray-700">Hangtálfoglalkozás gyermekeknek</h1>
+              <h2 className="mb-7 text-center text-3xl font-semibold text-gray-700">Hangtálfoglalkozás gyermekeknek</h2>
               <p className="text-justify ">
                 A hangtálak segítségével új irányt vehet a gyermekek fejlesztése, mely sok területen képes javulást elérni. A hangmasszázs terápia
                 lényege maga a hang/hangrezgés, mely a speciális, erre a célra kifejlesztett terápiás hangtálak segítségével szólal meg. A fejlesztést
@@ -202,7 +202,7 @@ const Hangmasszazs = () => {
       </section>
       {/* Kid */}
       <section className="my-32">
-        <h1 className="text-center text-3xl font-semibold text-gray-700 underline decoration-amber-400 decoration-2">Oklevelek</h1>
+        <h2 className="text-center text-3xl font-semibold text-gray-700 underline decoration-amber-400 decoration-2">Oklevelek</h2>
         <div className="mt-10 flex flex-wrap justify-center gap-20">
           <div className="shadow-lg transition-transform hover:scale-125">
             <Image src={"/assets/Beolvasás.jpg"} alt="Oklevél" width={210} height={297}></Image>
@@ -219,7 +219,7 @@ const Hangmasszazs = () => {
         </div>
       </section>
       <div className="mb-36">
-        <h1 className="text-center text-3xl font-semibold text-amber-500">Részvételi feltételek</h1>
+        <h2 className="text-center text-3xl font-semibold text-amber-500">Részvételi feltételek</h2>
         <ul className="mx-10 mt-7 max-w-3xl list-disc text-lg md:mx-auto">
           <li>
             Szívritmus szabályzó használata, epilepsziára való hajlam, a terhesség első három hónapjában, lázas esetben vagy gyulladás esetén nem

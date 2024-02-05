@@ -5,7 +5,7 @@ import React from "react";
 const Showcase = () => {
   return (
     <section id="munkaim" className="mx-auto my-10 max-w-7xl scroll-mt-20 sm:my-20">
-      <h1 className="mb-5 text-center text-3xl tracking-wide underline decoration-pink-600 sm:mb-20">Munkáim</h1>
+      <h2 className="mb-5 text-center text-3xl tracking-wide underline decoration-pink-600 sm:mb-20">Munkáim</h2>
 
       <div className="grid gap-y-5 px-10 pb-14 shadow-lg sm:grid-cols-2 sm:gap-x-20 sm:gap-y-20 md:grid-cols-3">
         <motion.div

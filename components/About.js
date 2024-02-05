@@ -12,7 +12,7 @@ const About = () => {
             </div>
             <div className="relative rounded-lg border-2 border-white p-4 pt-8  shadow-xl sm:p-10 lg:w-4/6">
               <div className=" absolute -top-6 ">
-                <h1 className="rounded-xl border-2 border-white bg-white py-2 px-8 text-xl font-bold tracking-wider text-violet-600">Rólam</h1>
+                <h2 className="rounded-xl border-2 border-white bg-white py-2 px-8 text-xl font-bold tracking-wider text-violet-600">Rólam</h2>
               </div>
               <p className="w text-justify font-semibold text-white sm:text-lg">
                 Kovács Ximena vagyok, Erdélyben Nagyváradon születtem. Gárdony- Dinnyés településen élek a Velencei tó csodás környékén. Saját magam

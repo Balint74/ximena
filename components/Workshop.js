@@ -7,7 +7,7 @@ const Workshop = () => {
     <article id="foglalkozas" className="scroll-mt-20 bg-gray-100 py-10 px-4 sm:px-10">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-5 space-x-10 sm:flex-row sm:gap-0">
         <div className="w-full">
-          <h1 className="text-3xl  underline decoration-violet-500 ">Foglalkozás</h1>
+          <h2 className="text-3xl  underline decoration-violet-500 ">Foglalkozás</h2>
           <p className="my-5 text-justify">
             A Mandala csodálatos ereje, a színekben és formákban tükröződik vissza. Elkészítése ráhangolódást és elmélyülést hoz, annak a szépségére
             amit szeretnél megteremteni a mindennapjaidban. Rezgése harmonizálja a teret, feltölt energiával, szépsége gyönyörködtet.

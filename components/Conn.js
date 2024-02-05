@@ -4,7 +4,7 @@ const Conn = () => {
   return (
     <section id="kapcsolat" className="mx-auto my-10 max-w-7xl px-2 sm:px-10">
       <div className="rounded-xl bg-pink-700/90 p-10  text-white">
-        <h1 className="text-center font-mono text-5xl font-bold tracking-wider">Ximena Mandala</h1>
+        <h2 className="text-center font-mono text-5xl font-bold tracking-wider">Ximena Mandala</h2>
         <h2 className="upper mt-3 text-center text-2xl text-pink-50">Keressen bizalommal!</h2>
         <h3 className="mt-16 mb-2 text-center text-xl font-bold uppercase tracking-wider">E-mail</h3>
         <h2 className="upper text-center text-2xl text-pink-50">nagyximena75@gmail.hu</h2>

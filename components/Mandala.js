@@ -20,7 +20,7 @@ const Mandala = () => {
           </div>
         </div>
         <div className="mt-10  rounded-xl bg-white p-7 shadow-xl sm:p-10">
-          <h1 className="mb-10 text-center text-3xl tracking-wide underline decoration-pink-600">Mandalák jelentése és színei:</h1>
+          <h2 className="mb-10 text-center text-3xl tracking-wide underline decoration-pink-600">Mandalák jelentése és színei:</h2>
           <div className="flex-row justify-center md:flex md:space-x-10">
             <ul className=" ">
               <li className="relative z-0 my-4 rounded-md px-4 py-4 shadow-md ">

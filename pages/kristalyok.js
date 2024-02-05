@@ -64,7 +64,7 @@ export default function Kristalyok() {
       </div>
       <div className="mx-auto  mt-40 max-w-7xl bg-white/60 ">
         <div className="mb-10 py-5">
-          <h1 className=" text-center text-3xl tracking-wide underline decoration-purple-800 ">Kristály dekorációk</h1>
+          <h2 className=" text-center text-3xl tracking-wide underline decoration-purple-800 ">Kristály dekorációk</h2>
         </div>
 
         <div className="grid gap-y-5 px-10 pb-14  sm:grid-cols-2 sm:gap-x-20 sm:gap-y-20 md:grid-cols-3">
