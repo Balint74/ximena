@@ -7,10 +7,10 @@ const Hangmasszazs = () => {
   return (
     <main className="relative">
       <Head>
-        <title>Peter Hess féle Hangmasszázs, hangfürdő - Ximena</title>
+        <title>Peter Hess féle Hangmasszázs, Hangterápia - Ximena</title>
         <meta
           name="description"
-          content="Élvezd a harmóniát Peter Hess féle Hangmasszázzsal! Mély meditáció, gyerekeknek is ideális. Tapasztald meg a hangfürdő gyógyító hatását!"
+          content="Élvezd a harmóniát Peter Hess féle Hangmasszázzsal! Mély meditáció, gyerekeknek is ideális. Tapasztald meg a hangterápia gyógyító hatását!"
         />
         <meta name="robots" content="index, follow" />
         <meta charset="UTF-8" />
